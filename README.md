@@ -40,7 +40,7 @@ iOS Setup
 Our application is built using the following architectural principles:
   **[Bloc](https://pub.dev/packages/flutter_bloc)**: 
   - **Reason**: BLoC (Business Logic Component) is a pattern for managing state and separating business logic from UI components. It is a widely adopted state management solution that works well with streams and reactive programming.
-  - 
+    
 ### Third-Party Packages
 
 Here is a list of third-party packages used in our project along with the reasons for their inclusion:
