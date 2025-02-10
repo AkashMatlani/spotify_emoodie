@@ -20,11 +20,12 @@ class SearchBloc extends Bloc<SearchEvent, SearchState> {
       emit(SearchLoading());
       try {
         final response = await apiService.search(event.query, event.type);
-        emit(SearchLoaded(response.data['${event.type}s']['items'] ?? [], event.type));
+        emit(SearchLoaded(
+            response.data['${event.type}s']['items'] ?? [], event.type));
       } catch (e) {
         if (kDebugMode) {
           debugPrint("Search API Error: $e");
-        }  // Log error for debugging
+        } // Log error for debugging
         emit(SearchError("Failed to fetch results. Please try again later."));
         //if we show actual error
         //emit(SearchError("Error: ${e.toString()}"));
