@@ -4,10 +4,23 @@
 
  Spotify eMoodie application is a cross-platform mobile application designed to Show Case design of UI simlar to spotify.It supports both Android and iOS platforms and offers features such as List and Grid data diplayed.
 
+---
+
+ ## 📸 Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/album.jpeg" alt="Album List" width="180" height="350"/>
+  <img src="assets/screenshots/artist.jpeg" alt="Artist List" width="180" height="350"/>
+</p>
+
+---
+
 ## Features
 
 - Cross-platform support for Android and iOS
 - Grid & List feature
+
+---
 
 ## Installation
 
@@ -32,6 +45,9 @@ iOS Setup
 2) Set up an iOS simulator or connect an iOS device.
 3) Run the app
 4) flutter run
+
+
+---   
 
 ## Architectural Choices and Third-Party Packages
 
